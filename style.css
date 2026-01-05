@@ -28,8 +28,8 @@ html, body {
 
 .logo {
     display: block;
-    margin: 20px auto;
-    width: 50px;
+    margin: 0px auto;
+    width: 40px;
     height: auto;
 }
 
@@ -43,6 +43,7 @@ h3 {
     font-size: clamp(16px, 4vw, 24px); /* Increased: Scales from 16px on mobile to 24px on larger screens */
     letter-spacing: 1px;
     margin-bottom: 0px;
+    margin-top: 10px;
 }
 
 h1 {
