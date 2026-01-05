@@ -40,7 +40,7 @@ html, body {
 
 h3 {
     font-family: 'Inter';
-    font-size: clamp(16px, 4vw, 24px); /* Increased: Scales from 16px on mobile to 24px on larger screens */
+    font-size: clamp(14px, 3vw, 24px); /* Increased: Scales from 16px on mobile to 24px on larger screens */
     letter-spacing: 1px;
     margin-bottom: 0px;
     margin-top: 10px;
@@ -58,7 +58,7 @@ h1 {
 h4 {
     margin-top: 2px;
     font-family: 'Inter';
-    font-size: clamp(14px, 3vw, 18px); /* Increased: Scales from 14px on mobile to 18px on larger screens */
+    font-size: clamp(11px, 2vw, 18px); /* Increased: Scales from 14px on mobile to 18px on larger screens */
     font-style: italic;
     font-weight: 300;
     line-height: 1.5;
