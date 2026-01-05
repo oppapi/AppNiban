@@ -40,7 +40,7 @@ html, body {
 
 h3 {
     font-family: 'Inter';
-    font-size: 15px;
+    font-size: clamp(12px, 3vw, 18px); /* Scales from 12px on mobile to 18px on larger screens */
     letter-spacing: 1px;
     margin-bottom: 0px;
 }
@@ -48,7 +48,7 @@ h3 {
 h4 {
     margin-top: 2px;
     font-family: 'Inter';
-    font-size: 12px;
+    font-size: clamp(10px, 2.5vw, 14px); /* Scales from 10px on mobile to 14px on larger screens */
     font-style: italic;
     font-weight: 300;
     line-height: 1.5;
@@ -60,7 +60,7 @@ h4 {
 h1 {
     font-family: 'Fineday One';
     font-weight: 300;
-    font-size: 3.1rem;
+    font-size: clamp(2rem, 8vw, 4rem); /* Scales from 2rem on mobile to 4rem on larger screens */
     margin: 30px;
     line-height: 1.3;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -69,7 +69,7 @@ h1 {
 p {
     margin-top: 2px;
     font-family: 'Inter';
-    font-size: 14px;
+    font-size: clamp(12px, 3vw, 16px); /* Scales from 12px on mobile to 16px on larger screens */
     font-style: italic;
     font-weight: 300;
     line-height: 1.5;
@@ -84,6 +84,7 @@ p {
     color: black;
     border: none;
     padding: 15px 40px;
+    font-size: clamp(14px, 3vw, 18px); /* Added responsive font size for button text, prioritizing mobile readability */
     font-weight: bold;
     border-radius: 30px;
     cursor: pointer;
