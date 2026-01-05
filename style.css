@@ -14,13 +14,13 @@ html, body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 100dvh;
     background-attachment: fixed;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100dvh;
     text-align: center;
     font-family: 'Arial', sans-serif;
     color: white;
