@@ -27,7 +27,8 @@ body {
     padding: 0.9rem; /* uniform spacing around body */
     box-sizing: border-box;
 
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .yellow-section {
@@ -39,7 +40,15 @@ body {
     box-sizing: border-box;
 }
 
-/* Feature cards grid */
+.services-section {
+    padding: 1.5rem;       /* space inside section */
+    width: 100%;
+    background: #eaeaea;
+    margin: 0.9rem 0;      /* uniform vertical space outside section */
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
 .feature-cards {
     display: grid;
     grid-template-columns: 1fr;
