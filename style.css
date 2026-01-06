@@ -82,7 +82,7 @@ p {
 
 /* Button */
 .btn {
-    margin-top: 10vh;
+    margin-top: clamp(2rem, 8vh, 6rem); /* larger spacing but safe */
     background-color: white;
     color: black;
     border: none;
