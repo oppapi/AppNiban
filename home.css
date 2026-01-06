@@ -65,24 +65,14 @@ h3 {
     font-family: 'Inter';
     font-size: clamp(12px, 3vh, 15px);
     letter-spacing: 1px;
-    margin: 0 0 4px;
+    margin: 0;
 }
 
 h1 {
     font-family: 'Fineday One';
     font-weight: 200;
     font-size: clamp(20px, 4vh, 50px);
-    margin-top: 10px;
-    margin: 0px 20px;
-    line-height: 1.1;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-}
-
-h2 {
-    font-family: 'Fineday One';
-    font-weight: 200;
-    font-size: clamp(0.8rem, 5vh, 2.1rem);
-    margin: 0px 20px 10px 20px;
+    margin: 10px 20px 10px 20px;
     line-height: 1.1;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
@@ -102,5 +92,5 @@ p {
     font-style: italic;
     font-weight: 300;
     line-height: 1.4;
-    margin: 4px 10px 8px;
+    margin: 0 10px 0 10px;
 }
