@@ -32,7 +32,7 @@ body {
 }
 
 .yellow-section {
-    padding: 0.5rem;       /* space inside section */
+    padding: 0.4rem;       /* space inside section */
     width: 100%;
     background: #ffe8b9;
     margin: 0 0 0.9rem 0;      /* uniform vertical space outside section */
