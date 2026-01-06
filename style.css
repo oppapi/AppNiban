@@ -56,7 +56,7 @@ h3 {
 h1 {
     font-family: 'Fineday One';
     font-weight: 300;
-    font-size: clamp(1.8rem, 12vh, 4rem); /* dynamic vh scaling */
+    font-size: clamp(1.8rem, 12vh, 3.5rem); /* dynamic vh scaling */
     margin: 10px 0;
     line-height: 1.2;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
@@ -64,7 +64,7 @@ h1 {
 
 h4 {
     font-family: 'Inter';
-    font-size: clamp(10px, 2vh, 16px); /* scale with height */
+    font-size: clamp(10px, 2vh, 14px);
     font-style: italic;
     font-weight: 300;
     line-height: 1.3;
