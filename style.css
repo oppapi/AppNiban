@@ -47,11 +47,11 @@ body {
 
 h3 {
     font-family: 'Inter';
-    font-size: clamp(10px, 2.5vh, 15px);
+    font-size: clamp(5px, 4vw, 17px);
     letter-spacing: 1px;
     margin: 0 0 4px;
+    white-space: nowrap;
 }
-
 
 h1 {
     font-family: 'Fineday One';
