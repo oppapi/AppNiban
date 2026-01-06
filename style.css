@@ -12,7 +12,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden; /* NO SCROLL EVER */
+    overflow: hidden;
 }
 
 body {
@@ -23,8 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    height: 100dvh; /* fill viewport */
+    height: 100dvh;
     text-align: center;
     font-family: Arial, sans-serif;
     color: white;
@@ -32,23 +31,21 @@ body {
     box-sizing: border-box;
 }
 
-.hero-content {
-    max-width: 600px; /* smaller for mobile-first */
+.index-content {
+    max-width: 600px;
     width: 100%;
 }
 
-/* Logo */
 .logo {
     display: block;
     margin: 0 auto 6px auto;
-    width: 40px; /* smaller for phones */
+    width: 40px;
     height: auto;
 }
 
-/* Headings */
 h3 {
     font-family: 'Inter';
-    font-size: clamp(12px, 3vh, 18px); /* mobile-prioritized */
+    font-size: clamp(12px, 3vh, 18px);
     letter-spacing: 1px;
     margin: 0 0 4px;
 }
@@ -56,7 +53,7 @@ h3 {
 h1 {
     font-family: 'Fineday One';
     font-weight: 300;
-    font-size: clamp(1.5rem, 10vh, 3.3rem); /* dynamic vh scaling for phones */
+    font-size: clamp(1.5rem, 10vh, 3.3rem);
     margin: 10px 20px;
     line-height: 1.2;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
@@ -64,7 +61,7 @@ h1 {
 
 h4 {
     font-family: 'Inter';
-    font-size: clamp(10px, 2vh, 14px); /* small, readable on phones */
+    font-size: clamp(10px, 2vh, 14px);
     font-style: italic;
     font-weight: 300;
     line-height: 1.3;
@@ -73,7 +70,7 @@ h4 {
 
 p {
     font-family: 'Inter';
-    font-size: clamp(11px, 2.5vh, 15px); /* small, readable */
+    font-size: clamp(11px, 2.5vh, 15px);
     font-style: italic;
     font-weight: 300;
     line-height: 1.4;
@@ -82,11 +79,11 @@ p {
 
 /* Button */
 .btn {
-    margin-top: clamp(2rem, 8vh, 6rem); /* larger spacing but safe */
+    margin-top: clamp(2rem, 8vh, 6rem);
     background-color: white;
     color: black;
     border: none;
-    padding: clamp(6px, 2vh, 14px) clamp(15px, 4vh, 30px); /* mobile-friendly */
+    padding: clamp(6px, 2vh, 14px) clamp(15px, 4vh, 30px);
     font-size: clamp(12px, 3vh, 16px);
     font-weight: bold;
     border-radius: 25px;

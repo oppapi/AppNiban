@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Fineday One';
+    src: url('fonts/Fineday One.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter.ttf') format('truetype');
+}
+
+body {
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    min-height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0; 
+    padding: 1rem; /* uniform spacing around body */
+    box-sizing: border-box;
+
+    overflow-x: hidden; 
+    overflow-y: auto; 
+}
+
+section {
+    padding: 1.5rem;       /* space inside section */
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 1rem 0;      /* uniform vertical space outside section */
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Feature cards grid */
+.feature-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 100%;
+    box-sizing: border-box;
+
+    font-family: 'Inter';
+    font-size: clamp(12px, 3vh, 16px);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+h3 {
+    font-family: 'Inter';
+    font-size: clamp(12px, 3vh, 18px);
+    letter-spacing: 1px;
+    margin: 0 0 4px;
+}
+
+h1 {
+    font-family: 'Fineday One';
+    font-weight: 200;
+    font-size: clamp(1rem, 6vh, 2.4rem);
+    margin-top: 10px;
+    margin: 0px 20px;
+    line-height: 1.1;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+h2 {
+    font-family: 'Fineday One';
+    font-weight: 200;
+    font-size: clamp(0.8rem, 5vh, 2.1rem);
+    margin: 0px 20px 10px 20px;
+    line-height: 1.1;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+h4 {
+    font-family: 'Inter';
+    font-size: clamp(10px, 2vh, 14px);
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.3;
+    margin: 4px 15px 8px;
+}
+
+p {
+    font-family: 'Inter';
+    font-size: clamp(11px, 2.5vh, 15px);
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 4px 10px 8px;
+}
