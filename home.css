@@ -63,7 +63,7 @@ section {
 
 h3 {
     font-family: 'Inter';
-    font-size: clamp(12px, 3vh, 18px);
+    font-size: clamp(12px, 3vh, 15px);
     letter-spacing: 1px;
     margin: 0 0 4px;
 }
