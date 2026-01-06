@@ -24,7 +24,7 @@ body {
     font-family: Arial, sans-serif;
     color: white;
     margin: 0; 
-    padding: 1rem; /* uniform spacing around body */
+    padding: 0.9rem; /* uniform spacing around body */
     box-sizing: border-box;
 
     overflow: hidden;
@@ -34,7 +34,7 @@ section {
     padding: 1.5rem;       /* space inside section */
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    margin: 1rem 0;      /* uniform vertical space outside section */
+    margin: 0.9rem 0;      /* uniform vertical space outside section */
     border-radius: 10px;
     box-sizing: border-box;
 }
