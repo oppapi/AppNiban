@@ -71,7 +71,7 @@ h1 {
     font-family: 'Fineday One';
     font-weight: 200;
     font-size: clamp(20px, 4vh, 50px);
-    margin: 10px 15px 10px 20px;
+    margin: 10px 20px 8px 20px;
     line-height: 1.1;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
