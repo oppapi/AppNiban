@@ -27,8 +27,7 @@ body {
     padding: 1rem; /* uniform spacing around body */
     box-sizing: border-box;
 
-    overflow-x: hidden; 
-    overflow-y: auto; 
+    overflow: hidden;
 }
 
 section {
