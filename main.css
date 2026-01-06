@@ -97,7 +97,7 @@ h4 {
 p {
     font-family: 'Inter';
     font-size: clamp(0.7rem, 2.5vh, 0.8rem);
-    font-weight: 600;
+    font-weight: 500;
     color: black;
     line-height: 1.4;
     margin: 3px;
