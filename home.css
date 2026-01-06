@@ -87,7 +87,7 @@ h4 {
 
 p {
     font-family: 'Inter';
-    font-size: clamp(11px, 2.5vh, 15px);
+    font-size: clamp(0.7rem, 2.5vh, 0.8rem);
     font-style: italic;
     font-weight: 300;
     line-height: 1.4;
