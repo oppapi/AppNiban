@@ -57,7 +57,7 @@ h1 {
     font-family: 'Fineday One';
     font-weight: 300;
     font-size: clamp(1.5rem, 10vh, 3rem); /* dynamic vh scaling for phones */
-    margin: 8px 0;
+    margin: 10px 20px;
     line-height: 1.2;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
