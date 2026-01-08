@@ -88,6 +88,15 @@ h3 {
     color: #353b5b;
 }
 
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(10px, 3vh, 16px);
+    font-weight: 700;
+    color: #353b5b;
+    margin: 0;
+    line-height: 1.1;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
