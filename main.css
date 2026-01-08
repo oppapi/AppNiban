@@ -1,8 +1,7 @@
 /* Custom Font for headings */
 @font-face {
     font-family: 'Fineday One';
-    src: url('fonts/FinedayOne.ttf') format('truetype');
-    font-display: swap;
+    src: url('fonts/Fineday One.ttf') format('truetype');
 }
 
 /* Body uses Roboto from Google Fonts */
