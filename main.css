@@ -74,7 +74,7 @@ h2 {
 }
 
 .church-service {
-    font-size: clamp(20px, 2.5vh, 20px);
+    font-size: clamp(15px, 3vh, 20px);
     font-weight: 700;
     margin-top: 15px;
     text-align: left;
