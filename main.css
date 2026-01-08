@@ -69,7 +69,8 @@ h1 {
 
 h2 {
     font-family: 'Inter';
-    font-size: clamp(20px, 2.5vh, 50px);
+    font-size: clamp(20px, 2.5vh, 20px);
+    font-weight: bold;
     margin: 0;
     color: #353b5b;
     line-height: 1.1;
