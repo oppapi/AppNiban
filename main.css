@@ -102,7 +102,7 @@ p {
     justify-content: space-between;
     margin-top: 15px;
     row-gap: 14px;
-    column-gap: 40px;
+    column-gap: 5px;
 }
 
 .left {
