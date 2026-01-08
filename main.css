@@ -98,22 +98,25 @@ p {
 
 .participants-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
+    grid-template-columns: auto 1fr;
     margin-top: 15px;
-    row-gap: 14px;
-    column-gap: 5px;
+    column-gap: 12px;
+    align-items: start;
 }
 
 .left {
     text-align: left;
     font-weight: 500;
+    white-space: normal;
 }
 
 .right {
     text-align: right;
     font-weight: 700;
+    white-space: normal;
+    word-break: break-word;
 }
+
 
 .sabbath-lesson {
     margin-top: 15px;
