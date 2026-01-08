@@ -67,15 +67,15 @@ h1 {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: clamp(20px, 2.5vh, 20px);
-    font-weight: 700;
+    font-weight: 800;
     margin: 0;
     color: #353b5b;
     line-height: 1.1;
 }
 
 .church-service {
-    font-size: clamp(10px, 2.5vh, 50px);
-    font-weight: bold;
+    font-size: clamp(20px, 2.5vh, 20px);
+    font-weight: 700;
     margin-top: 15px;
     text-align: left;
 }
