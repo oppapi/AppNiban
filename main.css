@@ -1,13 +1,11 @@
+/* Custom Font for headings */
 @font-face {
     font-family: 'Fineday One';
-    src: url('fonts/Fineday One.ttf') format('truetype');
+    src: url('fonts/FinedayOne.ttf') format('truetype');
+    font-display: swap;
 }
 
-@font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter.ttf') format('truetype');
-}
-
+/* Body uses Roboto from Google Fonts */
 body {
     background-image: url('images/background.png');
     background-size: cover;
@@ -19,7 +17,7 @@ body {
     align-items: center;
     text-align: center;
 
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: clamp(0.7rem, 2.5vh, 0.9rem);
     font-weight: 500;
     color: black;
@@ -58,7 +56,7 @@ body {
 }
 
 h1 {
-    font-family: 'Fineday One';
+    font-family: 'Fineday One', cursive;
     color: white;
     font-weight: 100;
     font-size: clamp(20px, 4.5vh, 50px);
@@ -68,9 +66,9 @@ h1 {
 }
 
 h2 {
-    font-family: 'Inter';
+    font-family: 'Roboto', sans-serif;
     font-size: clamp(20px, 2.5vh, 20px);
-    font-weight: 800;
+    font-weight: 700;
     margin: 0;
     color: #353b5b;
     line-height: 1.1;
@@ -84,7 +82,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Inter';
+    font-family: 'Roboto', sans-serif;
     font-size: clamp(0.7rem, 2.5vh, 0.9rem);
     font-weight: 700;
     margin: 2px 0 0 0;
@@ -92,8 +90,8 @@ h3 {
 }
 
 p {
-    font-family: 'Inter';
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     color: black;
     text-align: justify;
     margin: 0;
