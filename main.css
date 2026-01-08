@@ -33,7 +33,7 @@ body {
 }
 
 .yellow-section {
-    padding: 1rem 1.5rem;
+    padding: 1rem;
     width: 100%;
     background: #ffe8b9;
     margin-bottom: 0.9rem;
@@ -45,7 +45,7 @@ body {
 }
 
 .services-section {
-    padding: 1.5rem;
+    padding: 1rem;
     width: 100%;
     background: #eaeaea;
     margin-top: 0.9rem;
