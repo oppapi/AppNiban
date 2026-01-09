@@ -113,6 +113,14 @@ p {
     align-items: start;
 }
 
+.adparticipants-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-top: 15px;
+    column-gap: 12px;
+    align-items: start;
+}
+
 .left {
     text-align: left;
     font-weight: 400;
@@ -138,4 +146,76 @@ p {
 .lesson-review {
     font-weight: 800;
     color: black;
+}
+
+.family-card {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(245, 245, 245, 0.95);
+    border-radius: 14px;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+.family-title {
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 1.2rem;
+    color: #353b5b;
+}
+
+.input-row {
+    margin-top: 15px;
+}
+
+.input-row label {
+    display: block;
+    font-weight: 700;
+    margin: 15px 0 2px 3px;
+    text-align: left;
+    color: #353b5b;
+}
+
+.input-group {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 8px;
+    align-items: center;
+}
+
+.input-group input {
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(0.5rem, 1.8vh, 1rem);
+    font-weight: 400;
+    color: #353b5b;
+    margin: 0;
+    line-height: 1.1;
+    padding: 6px 6px;
+}
+
+.input-group input:focus {
+    border-color: #353b5b;
+}
+
+.btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn.minus {
+    border: 2px solid #ff5c5c;
+    color: #ff5c5c;
+}
+
+.btn.plus {
+    border: 2px solid #2f6f64;
+    color: #2f6f64;
 }
