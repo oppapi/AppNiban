@@ -170,6 +170,7 @@ p {
 }
 
 .input-row label {
+    font-size: clamp(0.7rem, 2.5vh, 0.8rem);
     display: block;
     font-weight: 700;
     margin: 15px 0 2px 3px;
