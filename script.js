@@ -1,30 +1,25 @@
-// Get Started button (safe check)
+//buttons
 const getStartedBtn = document.getElementById('get-started');
-
 if (getStartedBtn) {
   getStartedBtn.addEventListener('click', () => {
     window.location.href = 'home.html';
   });
 }
 
-// Event delegation for + and − buttons
+//add and remove input rows
 document.addEventListener("click", function (e) {
-
-  // ➕ Add new row
   if (e.target.classList.contains("plus")) {
     const row = e.target.closest(".input-row");
     if (!row) return;
 
     const clone = row.cloneNode(true);
 
-    // Reset values
     clone.querySelector(".editable-label").textContent = "--";
     clone.querySelector("input").value = "";
 
     row.after(clone);
   }
 
-  // ➖ Remove row (keep at least one)
   if (e.target.classList.contains("minus")) {
     const row = e.target.closest(".input-row");
     if (!row) return;
@@ -32,13 +27,12 @@ document.addEventListener("click", function (e) {
     const section = row.closest(".services-section");
     const rows = section.querySelectorAll(".input-row");
 
-    if (rows.length > 1) {
+    if (rows.length > 2) {
       row.remove();
     }
   }
 });
 
-// Select all label text on focus
 document.addEventListener("focusin", function (e) {
   if (e.target.classList.contains("editable-label")) {
     const range = document.createRange();
@@ -50,13 +44,8 @@ document.addEventListener("focusin", function (e) {
   }
 });
 
-// Prevent Enter key from creating new lines
-document.addEventListener("keydown", function (e) {
-  if (
-    e.target.classList.contains("editable-label") &&
-    e.key === "Enter"
-  ) {
-    e.preventDefault();
-    e.target.blur();
-  }
+import { getProgrammeData } from "./firebase.js";
+window.addEventListener("load", async () => {
+  const data = await getProgrammeData();
+  console.log(data);
 });

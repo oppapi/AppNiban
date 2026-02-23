@@ -13,7 +13,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -24,22 +23,20 @@ body {
     font-family: Arial, sans-serif;
     color: white;
     margin: 0; 
-    padding: 0.9rem; /* uniform spacing around body */
+    padding: 0.9rem;
     box-sizing: border-box;
-
     overflow: hidden;
 }
 
 section {
-    padding: 1.5rem;       /* space inside section */
+    padding: 1.5rem;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    margin: 0.9rem 0;      /* uniform vertical space outside section */
+    margin: 0.9rem 0;
     border-radius: 10px;
     box-sizing: border-box;
 }
 
-/* Feature cards grid */
 .feature-cards {
     display: grid;
     grid-template-columns: 1fr;

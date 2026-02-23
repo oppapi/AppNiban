@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: 'Inter';
+    font-family: "Inter";
     src: url('fonts/Inter.ttf') format('truetype');
 }
 
@@ -12,7 +12,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden; /* NO SCROLL */
+    overflow: hidden;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    height: 100svh; /* Android-safe */
+    height: 100svh;
     text-align: center;
     font-family: Arial, sans-serif;
     color: white;
@@ -33,26 +33,7 @@ body {
     box-sizing: border-box;
 }
 
-.index-content {
-    max-width: 600px;
-    width: 100%;
-}
-
-.logo {
-    display: block;
-    margin: 0 auto 6px auto;
-    width: 40px;
-    height: auto;
-}
-
-h3 {
-    font-family: 'Inter';
-    font-size: clamp(5px, 4vw, 17px);
-    letter-spacing: 1px;
-    margin: 0 0 4px;
-    white-space: nowrap;
-}
-
+/*texts*/
 h1 {
     font-family: 'Fineday One';
     font-weight: 300;
@@ -61,18 +42,23 @@ h1 {
     line-height: 1.15;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
-
+h3 {
+    font-family: "Inter";
+    font-size: clamp(5px, 4vw, 17px);
+    letter-spacing: 1px;
+    margin: 0 0 4px;
+    white-space: nowrap;
+}
 h4 {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-size: clamp(10px, 2vh, 14px);
     font-style: italic;
     font-weight: 300;
     line-height: 1.3;
     margin: 4px 15px 8px;
 }
-
 p {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-size: clamp(11px, 2.2vh, 15px);
     font-style: italic;
     font-weight: 300;
@@ -80,7 +66,15 @@ p {
     margin: 4px 10px 8px;
 }
 
-/* Button */
+/*images*/
+.logo {
+    display: block;
+    margin: 0 auto 6px auto;
+    width: 40px;
+    height: auto;
+}
+
+/*buttons*/
 .btn {
     margin-top: clamp(1.2rem, 4vh, 3rem);
     background-color: white;
@@ -93,8 +87,15 @@ p {
     cursor: pointer;
     transition: 0.3s;
 }
-
 .btn:hover {
     background-color: #ddd;
     transform: scale(1.05);
 }
+
+/*others*/
+.index-content {
+    max-width: 600px;
+    width: 100%;
+}
+
+
